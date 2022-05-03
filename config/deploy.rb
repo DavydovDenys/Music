@@ -3,7 +3,7 @@ lock "~> 3.17.0"
 
 server '192.168.56.101', port: 22, roles: [:web, :app, :db], primary: true
 set :application, "Music"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:DavydovDenys/Music.git"
 
 set :user,            'den'
 set :puma_threads,    [4, 16]
