@@ -5,7 +5,7 @@ server '192.168.56.101', port: 22, roles: [:web, :app, :db], primary: true
 set :application, "music"
 set :repo_url, "git@github.com:DavydovDenys/Music.git"
 set :branch, :main
-set :user,            'den'
+set :user,            'root'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
